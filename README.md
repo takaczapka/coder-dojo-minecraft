@@ -2,6 +2,30 @@
 
 The idea of the project is the introduction of JAVA programming concepts through Minecraft mod programming. TBC
 
+## Minecraft introduction
+
+- A Grownup's Guide to Minecraft and Writing Minecraft Mods - http://www.kegel.com/minecraft/
+- Great Minecraft in-game tutorial series - **How to Survive and Thrive**
+https://www.youtube.com/watch?v=B36Ehzf2cxE&list=PL7326EF82122776A9
+- Guide to how Minecraft works - http://greyminecraftcoder.blogspot.com.au/p/list-of-topics.html
+- Forge Modding articles - http://www.wuppy29.com/minecraft/modding-tutorials/forge-modding-1-8
+- Forge Tutorials listing - http://www.minecraftforge.net/forum/index.php/board,120.0.html
+- General Forge notes - http://greyminecraftcoder.blogspot.co.uk/2013/12/forge-techniques-some-general-notes.html
+- Minecraft By Example - https://github.com/TheGreyGhost/MinecraftByExample
+
+## Minecraft Forge
+
+- Built oo top of MCP - Minecraft Coders Pack
+- Use MCP to decompile the Minecraft client and server jar files.
+- Use the decompiled source code to create mods for Minecraft.
+- Recompile modified versions of Minecraft.
+- Reobfuscate the classes of your mod for Minecraft.
+
+Almost all mods nowadays use Forge. Supports both client and server mods.
+List of Forge API Events http://www.minecraftforge.net/wiki/Event_Reference
+
+### Spigot/Bukkit
+Another way to mod Minecraft, but it's for server only mods. API not that powerful as Forge.
 
 ## Installation
 
