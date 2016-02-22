@@ -1,6 +1,5 @@
 package codingdojo.minecraftforge;
 
-import net.minecraft.block.Block;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraftforge.event.world.BlockEvent.BreakEvent;

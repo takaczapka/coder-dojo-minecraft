@@ -13,7 +13,7 @@ public class SuperJump {
 		if (event.entity instanceof EntityPlayer) {
 			event.entityLiving.addChatMessage(
 					new ChatComponentText(
-							EnumChatFormatting.GOLD + "JUMP"
+							EnumChatFormatting.DARK_RED + "JUMP"
 							));
 			event.entity.motionY *= 5;
 		}
