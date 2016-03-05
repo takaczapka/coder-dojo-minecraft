@@ -102,3 +102,12 @@ Preferably don’t give kids the code straight away, or maybe just a template, o
     - create a list, add/remove/count elements, iterate through elements writing each one to std output
 - explain: interfaces vs classes
 - TBC
+
+### Block Filler
+Combination of Command and Event Handler.
+Create grids of blocks of any kind. Requires to use wooden axe to set up a position (left and right mouse button) (event handler),
+and invoking a command /fb block_id. Block ids reference: http://minecraft-ids.grahamedgecombe.com .
+- In Java sandbox project
+    - loops
+        - loop over 3 variables
+    - TBC

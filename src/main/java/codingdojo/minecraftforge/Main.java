@@ -17,10 +17,12 @@ public class Main {
 //		MinecraftForge.EVENT_BUS.register(new ExplodingMinecarts());
 		MinecraftForge.EVENT_BUS.register(new SuperJump());
 		MinecraftForge.EVENT_BUS.register(new Parachute());
+		MinecraftForge.EVENT_BUS.register(new BlockFillerPositionSelector());
 	}
 	
 	  @EventHandler
 	  public void serverLoad(FMLServerStartingEvent event) {
 		  event.registerServerCommand(new FlamingPigs());
+		  event.registerServerCommand(new BlockFillCommand());
 	  }
 }
