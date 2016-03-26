@@ -78,6 +78,7 @@ Preferably don’t give kids the code straight away, or maybe just a template, o
 
 - explain how we can hack into the Minecraft, what are possibilities, etc (events, chaging blocks, physics, spawwning animals, executing commands, etc.)
 - explain the idea of a EventBus and registration of event consumers
+- run the client in debug mode and modify classes, changing implementation on the fly
 - modifications:
     - make the message to be of GOLD color
     - make the message to show a type of the block destroyed
@@ -90,7 +91,7 @@ Preferably don’t give kids the code straight away, or maybe just a template, o
     - add chat message when jump starts with player’s initial position
     - experiment with height of a jump
 
-### Flaming pigs, cows or sheep
+### Flaming pigs
 - In Java sandbox project
     - command line arguments exercise
         - reading from input
@@ -101,7 +102,8 @@ Preferably don’t give kids the code straight away, or maybe just a template, o
         - 10 times printout “I love minecraft!"
     - create a list, add/remove/count elements, iterate through elements writing each one to std output
 - explain: interfaces vs classes
-- TBC
+- modifications
+    - spawn flaming cows, chickens, zombies
 
 ### Block Filler
 Combination of Command and Event Handler.
@@ -110,4 +112,5 @@ and invoking a command /fb block_id. Block ids reference: http://minecraft-ids.g
 - In Java sandbox project
     - loops
         - loop over 3 variables
-    - TBC
+- modifications:
+    - command to build a walled space, where you can put your spawn pigs
